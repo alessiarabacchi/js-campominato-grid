@@ -1,0 +1,33 @@
+.wrapper {
+  min-height: 100vh;
+  background-color: #85e2e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  border: 1px solid black;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* display: grid;
+  gap: 5px; */
+}
+
+.box {
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.box.clicked {
+  background-color: rgb(27, 141, 175);
+}
